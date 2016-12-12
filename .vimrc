@@ -51,3 +51,5 @@ syntax on
 filetype indent plugin on
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
+set title
+set titlestring=VIM:\ %-25.55f\ %a%r%m titlelen=70
