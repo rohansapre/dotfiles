@@ -115,3 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# check if the computer is connected to the internet
+checkInternet
+
+# create a new shell function for displaying today's date and weekday
+today() {
+	echo -n "Date: "
+	date +"%A, %B %-d, %Y"
+}
