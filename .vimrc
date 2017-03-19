@@ -53,3 +53,6 @@ let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 set title
 set titlestring=VIM:\ %-25.55f\ %a%r%m titlelen=70
+
+" simplify copy to system clipboard using Control + c
+vnoremap <C-c> "+y
